@@ -1,9 +1,11 @@
 VRV Security - Authentication, Authorization, and Role-Based Access Control (RBAC) System
+
+
 Introduction
 This project is a Spring Boot application developed for VRV Security to demonstrate the implementation of Authentication, Authorization, and Role-Based Access Control (RBAC). The system ensures that users can register, log in, and log out securely, with access to resources managed based on user roles such as Admin, User, and Moderator.
 
 Features
-User Registration: Users can register by providing a username and password.
+User Registration: Users can register by providing a username and password and role.
 User Login: Registered users can log in to receive access tokens.
 Role-Based Access Control (RBAC): Access to resources is controlled based on user roles. Different roles have specific permissions to access certain endpoints.
 Secure Password Storage: User passwords are securely hashed using BCrypt.
@@ -12,10 +14,7 @@ Technologies Used
 Spring Boot: Framework for building the application.
 Spring Security: Provides authentication and authorization.
 Spring Data JPA: For database interactions.
-H2 Database: In-memory database used for development and testing.
-Lombok: To reduce boilerplate code.
 Maven: Dependency management and build tool.
-Getting Started
 Prerequisites
 Java 8 or higher
 Maven
